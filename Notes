@@ -1,0 +1,13 @@
+1. Capitaliztion is important in programing 
+EX: From random Import randint 
+Due to the fact the 'F' in from and 'I' in import are capitalized
+the fuctions do not work.
+Should be as such: from random import randint
+
+Ex: list1=["Rock", "Paper" , "Scissors"]
+In Python, the sequence of various data types is stored in a list.
+A list is a collection of different kinds of (,) and the square brackets [enclose the List's items] serve as separators.
+
+Ex: computer = list1[randint(0,2)]
+randint() method returns an integer number selected element from the specified range.
+Note: My understanding is that the computer equals list1 which data types include Rock,Paper,and Scissors.
