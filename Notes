@@ -1,13 +1,28 @@
 Capitaliztion is important in programing 
 EX: From random Import randint 
-Due to the fact the 'F' in from and 'I' in import are capitalized
+*Due to the fact the 'F' in from and 'I' in import are capitalized
 the fuctions do not work.
 Should be as such: from random import randint
 
 Ex: list1=["Rock", "Paper" , "Scissors"]
-In Python, the sequence of various data types is stored in a list.
+*In Python, the sequence of various data types is stored in a list.
 A list is a collection of different kinds of (,) and the square brackets [enclose the List's items] serve as separators.
 
-Ex: computer = list1[randint(0,2)]
-randint() method returns an integer number selected element from the specified range.
+Ex: 
+computer = list1[randint(0,2)]
+Player = False 
+
+*randint() method returns an integer number selected element from the specified range.
 Note: My understanding is that the computer equals list1 which data types include Rock,Paper,and Scissors.
+Player is 
+
+EX:
+While player == False:
+    player = input("Rock, Paper, Scissors?")
+    if player == computer:
+        print("Tie!")
+*If player and computer select the same value it = to a tie
+the if statement is how you perform this sort of decision-making.
+It allows for conditional execution of a statement or group of statements based on the value of an expression.
+
+
